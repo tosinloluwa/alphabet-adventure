@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ionic:build": "echo 'web assets ready'",
-    "build": "npx cap sync android"
+    "build": "node ./node_modules/@capacitor/cli/dist/index.js sync android"
   },
   "keywords": [],
   "author": "",
