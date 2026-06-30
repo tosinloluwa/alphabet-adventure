@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ionic:build": "echo 'web assets ready'",
+    "build": "cap sync android"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,8 @@
   },
   "devDependencies": {
     "@capacitor/android": "^8.4.1",
-    "@capacitor/cli": "^8.4.1"
+    "@capacitor/cli": "^8.4.1",
+    "@ionic/cli": "^7.2.1",
+    "@ionic/core": "^8.8.12"
   }
 }
